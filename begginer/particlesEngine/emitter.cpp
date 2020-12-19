@@ -1,4 +1,5 @@
 #include "emitter.h"
+
 Emitter::Emitter() {
 	texture = nullptr;
 	lastTime = 1;
