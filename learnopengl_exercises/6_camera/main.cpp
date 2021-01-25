@@ -308,7 +308,6 @@ int main(void)
 	trans = glm::translate(trans, glm::vec3(1.0f, 1.0f, 1.0f));
 	vec = trans * vec;
 	std::cout << vec.x << "-" << vec.y << "-" << vec.z << "\n";
-
 	
 	glEnable(GL_DEPTH_TEST);
 	
